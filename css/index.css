@@ -174,7 +174,13 @@ a {
   text-decoration: none;
   color: black;
   font-size: 2rem;
-  padding: 0 2%;
+  width: 10%;
+}
+@media (max-width: 500px) {
+  a {
+    width: 4%;
+    padding: 0 12%;
+  }
 }
 footer {
   color: #22283B;

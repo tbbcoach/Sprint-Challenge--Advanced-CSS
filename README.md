@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Biggest diffence I could tell is the use of media queries.  In adaptive much is stil hard coded.  Responsive design uses percentages and other approaches such as rem which are flexible to screen size so you don't have to re-code individual pixel sizes.  They adjust almost automatically as the screen size adjusts.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+On mobile first you build to the mobile size unit first and then out to the desktop. On desktop it is the other way around.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Resets pixels to 10.  All single values of REM now equal 10 pixels.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprossing takes a lot of the grunt work out of CSS.  It allows you to nest styling instead of finding and typing each specific section, div, etc.  It allows allows for variale use and other compoenents such as mixins for reuse so you don't have to type them again.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Variables and mixins are great.  Also, what gives me the most trouble.  Once I see have a potential variable or mixin I try to write to them instead of just write the necessary code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
