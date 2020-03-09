@@ -21,6 +21,18 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media(max-width: 500px) {
+      .sky {
+        display: none;
+      }
+      .launch {
+        display: none;
+      }
+      .blast {
+        width: 100%;
+      }
+    }
+
     img {
       width: 28%;
       margin: 20px 2.5%;
@@ -48,8 +60,19 @@
     display: flex;
     justify-content: center;
 
+    @media(max-width: 500px) {
+      flex-direction: column-reverse;
+      width: 100%;
+      padding: 0;
+
+    }
+
     .walk-text {
       width: 50%;
+
+      @media(max-width: 500px) {
+        width: 100%;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -66,10 +89,13 @@
         border-radius: 5px;
         width: 40%;
 
-      .btn:hover {
-          background-color: lightgreen;
-          color: red;
+        @media(max-width: 500px) {
+          width: 100%;
         }
+
+      }
+      .btn:hover {
+        .btnhover();
       }
     }
 
