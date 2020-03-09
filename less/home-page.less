@@ -21,7 +21,7 @@
     flex-wrap: wrap;
     width: 100%;
 
-    @media(max-width: 500px) {
+    @media @phone {
       .sky {
         display: none;
       }
@@ -60,7 +60,7 @@
     display: flex;
     justify-content: center;
 
-    @media(max-width: 500px) {
+    @media @phone {
       flex-direction: column-reverse;
       width: 100%;
       padding: 0;
@@ -70,8 +70,9 @@
     .walk-text {
       width: 50%;
 
-      @media(max-width: 500px) {
+      @media @phone {
         width: 100%;
+
       }
 
       h3 {
@@ -89,8 +90,10 @@
         border-radius: 5px;
         width: 40%;
 
-        @media(max-width: 500px) {
+       // @media(max-width: 500px) 
+       @media @phone {
           width: 100%;
+          padding: 2% 33%;
         }
 
       }
@@ -102,6 +105,10 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      @media @phone {
+        width: 100%;
+      }
       
       img {
         width: 100%;
