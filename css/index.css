@@ -174,12 +174,13 @@ a {
   text-decoration: none;
   color: black;
   font-size: 2rem;
-  width: 10%;
+  width: 8%;
 }
 @media (max-width: 500px) {
   a {
-    width: 4%;
-    padding: 0 12%;
+    width: 18%;
+    font-size: 1.5rem;
+    justify-content: space-around;
   }
 }
 footer {
@@ -191,6 +192,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .home .intro img {
+    width: 100%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
